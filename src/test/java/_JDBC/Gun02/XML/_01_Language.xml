@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suit 1">
+    <test name="Test 1">
+        <parameter name="arananKelime" value="select * from language"></parameter>
+        <classes>
+            <class name="_JDBC.Gun02._03_Soru"></class>
+        </classes>
+    </test>
+</suite>
